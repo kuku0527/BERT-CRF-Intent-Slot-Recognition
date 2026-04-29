@@ -1,1 +1,8 @@
 
+# train.txt 示例数据
+我 想 修 改 手 机 号  modify_phone  O O O O B-phone I-phone O
+帮 我 查 一 下 订 单 物 流  query_logistics  O O O O O O B-order I-order O
+订 单 什 么 时 候 发 货  query_logistics  B-order I-order O O O O O
+我 要 查 一 下 订 单 状 态  query_logistics  O O O O O B-order I-order O
+我 想 改 一 下 收 货 地 址  modify_address  O O O O O B-address I-address I-address O
+帮 我 更 改 一 下 收 货 地 址  modify_address  O O O O O O B-address I-address I-address O
